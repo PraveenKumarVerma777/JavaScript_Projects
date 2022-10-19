@@ -1,7 +1,7 @@
 
 const currentYear= new Date()
 const getupcomingnewYear= currentYear.getFullYear()
-const newYearsDate= `1 Jan ${getupcomingnewYear+1}`
+const newYearsDate= `30 Aug ${getupcomingnewYear+1}`
 const days1    = document.getElementById("day")
 const hours1   = document.getElementById("hour")
 const minutes1 = document.getElementById("min")
