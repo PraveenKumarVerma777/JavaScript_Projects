@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+body{
+    background: rgb(63,94,251);
+    background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    
+
+}
+.quiz-container{
+    background-color:rgb(4, 36, 12) ;
+    color: white;
+    border-radius:10px;
+    box-shadow: -8px 15px 20px 60px rgba(231, 173, 13, 0.712);
+    
+    width: 30em;
+
+}
+.quiz-header{
+    padding: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    margin:1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #72f508;
+    display: block;
+    width: 100%;
+    padding:1rem;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1rem;
+    border:none;
+    cursor:pointer;
+    box-shadow: -5px 20px 30px rgba(5, 4, 26, 0.973);
+}
+
+button:hover{
+    background-color: #207a09;
+    
+}
+
+#quiz{
+    display: block;
+    width: 60%;
+}
