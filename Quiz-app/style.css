@@ -60,3 +60,7 @@ button:hover{
     display: block;
     width: 60%;
 }
+
+h2{
+    text-align: center;
+}
